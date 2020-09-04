@@ -1,0 +1,27 @@
+<template>
+  <div id="app" >
+    <Index />
+  </div>
+</template>
+
+<script>
+import Index from './Page/Index.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Index
+  }
+}
+</script>
+
+<style>
+
+#app{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+</style>
